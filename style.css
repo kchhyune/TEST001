@@ -1,0 +1,18 @@
+<style>
+  /* 아이폰 6 세로 */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+  .info{
+    width : 320px;
+    height : auto;
+    }
+  .cc-left{
+    padding-bottom:15px;
+  }
+  .cc-right{
+    padding-left:0px;
+    padding-bottom:0px;
+  }
+
+
+}
+</style>

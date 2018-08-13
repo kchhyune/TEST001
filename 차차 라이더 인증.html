@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0104)file:///C:/Users/User/Desktop/%EC%B0%A8%EC%B0%A8%20%EB%9D%BC%EC%9D%B4%EB%8D%94%20%EC%9D%B8%EC%A6%9D.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="./차차 라이더 인증_files/style.css">
+  <title>차차 라이더 인증</title>
+ </head>
+ <body>
+ <div class="title" style="margin:15px auto; font-size:15px; font-weight:bold; text-align:center;">차차를 이용해 주셔서 감사합니다.</div>
+ <div class="info" style="overflow:hidden;border:1px solid #c1c1c1;padding:20px;margin:auto;height:500px;width:700px;">
+	<div style="margin-right:0px;width:324px;text-align:center;border-bottom:1px solid #cfcfcf;padding-bottom:16px;float:left;" class="cc-left">
+		<div class="info-title" style="width:324px; border-bottom:1px solid #cfcfcf; margin-bottom:10px; font-size:18px; font-weight:bold;"><span style="position:relative; top:10px; background:#fff; padding:0px 50px;">여정정보</span></div>
+		<div class="map" style="margin:20px auto;"><img src="file:///C:/Users/User/Desktop/TRIP_MAP_URL"></div>
+		<div class="profile" style="width:250px; margin:auto; overflow:hidden; margin-bottom:8px;">
+			<ul style="margin:0px; padding:0px;">
+<li style="list-style:none;float:left;"><img src="data:image/jpg;base64,DRIVER_PICTURE_BASE64" width="80px" height="70px"></li>
+				<li class="start" style="list-style:none;margin-left:0px;margin-top:0px;text-align:center;font-size:14.96px;"><span style="font-weight:600; color:#3e3d3d;">드라이버 정보</span><br><span style="font-weight:600; font-size:12px;">DRIVER_NAME</span><br><span style="font-weight:600; font-size:12px;">DRIVER_VEHICLE</span></li>
+			</ul>
+</div>
+		<div class="addrs" style="width:250px; margin:auto;">
+			<ul style="margin:0px;padding:0px;margin-bottom:10px;overflow:hidden;" class="addr">
+<li class="img" style="list-style:none;float:left;margin-top:5px;margin-right:3px;"><img src="file:///C:/Users/User/Desktop/ICON_TRIP_START_URL"></li>
+				<li class="start" style="list-style:none;float:left;width:220px;font-size:14.95px;line-height:20px;">출발 <span style="font-size:12px; font-weight:600; color:#3e3d3d;">TRIP_START_TIME</span><br><span style="font-size:12px; font-weight:600;">TRIP_START_ADDR</span>
+</li>
+			</ul>
+<ul class="addr" style="margin:0px;padding:0px;margin-bottom:10px;overflow:hidden;">
+<li class="img" style="list-style:none;float:left;margin-top:5px;margin-right:3px;"><img src="file:///C:/Users/User/Desktop/ICON_TRIP_END_URL"></li>
+				<li class="start" style="list-style:none;float:left;width:220px;font-size:14.95px;line-height:20px;">도착 <span style="font-size:12px; font-weight:600; color:#3e3d3d;">TRIP_END_TIME</span><br><span style="font-size:12px; font-weight:600;">TRIP_END_ADDR</span></li>
+			</ul>
+</div>
+		<div class="result" style="width:200px; margin:auto; overflow:hidden;">
+				<li style="list-style:none;float:left;font-size:15.11px;width:70px;">거리</li>
+				<li class="time" style="list-style:none;float:right;font-size:12px;font-weight:600;">TRIP_DISTANCE</li>
+                <br><li style="list-style:none;float:left;font-size:15.11px;width:70px;">소요시간</li>
+				<li class="time" style="list-style:none;float:right;font-size:12px;font-weight:600;">TRIP_DURATION</li>
+		</div>
+
+	</div>
+	<div style="margin-left:0px;width:324px;text-align:center;border-bottom:1px solid #cfcfcf;padding-bottom:0px;float:left;padding-left:20px;" class="cc-right">
+		<div class="info-title" style="width:324px;border-bottom:1px solid #cfcfcf;margin-bottom:10px;font-size:18px;font-weight:bold;margin-top:0px;"><span style="position:relative; top:10px; background:#fff; padding:0px 50px;">결제정보</span></div>
+		<div class="money1" style="margin-top:30px; border-bottom:1px solid #cfcfcf; padding-bottom:25px;">
+			<table cellspacing="0" style="width:280px; margin:auto; font-size:15px;">
+<tbody><tr>
+<th class="th1" style="font-weight:normal; text-align:left;">이용요금</th>
+					<td class="m1" style="text-align:right;">FARE_TOTAL원</td>
+				</tr>
+<tr>
+<th class="td2" style="font-weight:normal;text-align:left;padding-left:10px;font-size:10px;">- 렌터카요금</th>
+					<td style="padding-left:25px;font-size:10px;text-align:right;" class="td2 m1">FARE_RENT원</td>
+				</tr>
+<tr>
+<th class="td2" style="font-weight:normal;text-align:left;padding-left:10px;font-size:10px;">- 대리운전요금</th>
+					<td class="td2 m1" style="padding-left:25px;font-size:10px;text-align:right;">FARE_AGENT원</td>
+				</tr>
+<tr>
+<th class="td3" style="font-weight:normal;text-align:left;padding-top:20px;">할인요금</th>
+					<td class="td3 minus m1" style="padding-top:20px;text-align:right;color:#ff5064;">-FARE_DISCOUNT원</td>
+				</tr>
+</tbody></table>
+</div>
+		<div class="money2" style="padding-bottom:15px; border-bottom:1px solid #cfcfcf; margin-top:15px; font-weight:600;">
+			<div class="total" style="font-size:15px; text-align:left;">총 결제금액</div>
+			<div class="total_money" style="font-size:25px; text-align:right;">FARE_PAYED 원</div>
+		</div>
+		<div style="padding-bottom:15px; border-bottom:0px solid #cfcfcf; margin-top:16px; text-align:left; font-size:15px" class="money3">
+			<div class="card">결제카드</div>
+			<div class="card_info" style="padding-left:10px;">PAYMENT_NAME</div>
+		</div>
+		
+	</div>
+    <div class="snsInfo" style="margin-top:10px; font-size:11px;line-height:15px; overflow:hidden;width : 668px;text-align:center; padding-top:20px">
+		친구에게 차차서비스를 소개해주세요.<br>
+		친구 추천 코드
+		<div class="code" style="font-size:15px; color:#129a76; margin-top:4px; margin-bottom:10px;">USER_CODE</div>
+		<ul class="sns" style="margin:auto;padding:0px;overflow:hidden;width:280px;margin-top:20px;">
+<li style="list-style:none;float:left;width:28px;margin-right:50px;"><a href="http://www.chachacreation.co.kr/"><img src="file:///C:/Users/User/Desktop/SNS_CHACHA_URL" alt="homepage"></a></li>
+			<li style="list-style:none;float:left;width:28px;margin-right:50px;"><a href="https://www.facebook.com/Anytime.chachacreation/"><img src="file:///C:/Users/User/Desktop/SNS_FACEBOOK_URL" alt="facebook"></a></li>
+            <li style="list-style:none;float:left;width:28px;margin-right:50px;"><a href="https://www.instagram.com/anytime_chacha/"><img src="file:///C:/Users/User/Desktop/SNS_INSTAGRAM_URL" alt="instagram"></a></li>
+			<li class="last" style="list-style:none;float:left;width:28px;margin-right:0px;"><a href="mailto:support@chachacreation.co.kr"><img src="file:///C:/Users/User/Desktop/SNS_MAIL_URL" alt="mail"></a></li>
+		</ul>
+</div>
+</div>
+
+
+
+</body></html>
